@@ -13,5 +13,5 @@
 
 ## Contribution
 
-* If you have useful rules in getting convenience by URL Auto Redictor, comment in the [Collection of awesome rules](https://github.com/crispgm/UrlAutoRedirector/issues/17).
+* If you have useful rules in getting convenience by URL Auto Redictor, comment in the [Collection of awesome rules](https://github.com/UrlAutoRedirector/UrlAutoRedirector/issues/17).
 * PR(Pull Request) is welcomed.
