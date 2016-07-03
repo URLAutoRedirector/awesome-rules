@@ -4,10 +4,10 @@
 
 | Name | Source | Destination | RegExp |
 |------|--------|-------------|--------|
-| 京东中间页跳过 | ^http://re.jd.com/cps/item/([0-9]*).html | http://item.jd.com/$1.html | - [x] |
-| 点评无线转PC | ^http://m.dianping.com/appshare/shop/([0-9]*)$ | http://www.dianping.com/shop/$1 | - [x] |
-| 微博无线转PC | ^http://m.weibo.cn/(.*)$ | http://weibo.com/$1 | - [x] |
-| BaiduToGoogle | https://www.baidu.com/ | https://www.google.com/ | - [] |
+| 京东中间页跳过 | ^http://re.jd.com/cps/item/([0-9]*).html | http://item.jd.com/$1.html | :heavy_check_mark: |
+| 点评无线转PC | ^http://m.dianping.com/appshare/shop/([0-9]*)$ | http://www.dianping.com/shop/$1 | :heavy_check_mark: |
+| 微博无线转PC | ^http://m.weibo.cn/(.*)$ | http://weibo.com/$1 | :heavy_check_mark |
+| BaiduToGoogle | https://www.baidu.com/ | https://www.google.com/ | |
 
 ## Contribution
 
