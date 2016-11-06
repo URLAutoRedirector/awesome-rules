@@ -1,13 +1,12 @@
-# Awesome rules of URL Auto Redirector
+# Awesome Rules for URL Auto Redirector
 
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
-![](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## What's URL Auto Redirector
+## What's URL Auto Redirector?
 
-[URL Auto Redirector](https://urlautoredirector.github.io) is a chrome extension that enables you to skip certain pages, mostly useless referral/ad pages, in order to make browsing quicker and simpler.
+[URL Auto Redirector](https://urlautoredirector.github.io) is a Chrome Extension that uses for redirecting URLs automatically with Regular Expression presets. It enables you to skip referral/AD pages and adapt mobile pages gracefully, which is time-saving, helps to be more productive and improves web browsing experiences.
 
-[Download and install URL Auto Redirector](https://github.com/UrlAutoRedirector/UrlAutoRedirector/wiki/Installation).
+[Get URL Auto Redirector](https://urlautoredirector.github.io/docs.html#installation).
 
 ## Preset Rules
 
@@ -21,6 +20,18 @@
 | 自如 | `^http://m.ziroom.com/BJ/room/(.*).html` | `http://www.ziroom.com/z/vr/$1.html` | :heavy_check_mark: |
 | CSDN 文章 | `^http://m.csdn.net/article/(.*)$` | `http://www.csdn.net/article/$1` | :heavy_check_mark: |
 | 空翼网 | `^http://m.afwing.com/(.*)$` | `http://www.afwing.com/$1` | :heavy_check_mark: |
+
+| 京东 | `^http://item.m.jd.com/product/(.*).html` | `http://item.jd.com/$1.html` | :heavy_check_mark: |
+| 京东全球购 | `^(https|http)://mitem.jd.hk/ware/view.action\\?wareId=(\\d+)(&.*)` | `https://item.jd.hk/$2.html` | :heavy_check_mark: |
+| 豆瓣日记 | `^https://m.douban.com/note/(.*)/` | `https://www.douban.com/note/$1/` | :heavy_check_mark: |
+| 饿了么 | `^https://h5.ele.me/shop/#id=(\\d+)` | `https://www.ele.me/shop/$1` | :heavy_check_mark: |
+| 糯米电影 | `^https://mdianying.baidu.com/movie/detail\\?movieId=(\\d+)` | `https://www.nuomi.com/film/$1` | :heavy_check_mark: |
+| 哔哩哔哩 | `^http://www.bilibili.com/mobile/video/(av\\d+).html` | `http://www.bilibili.com/video/$1/` | :heavy_check_mark: |
+| AcFun | `^http://m.acfun.tv/v/\\?ac=(\\d+)` | `http://www.acfun.tv/v/ac$1` | :heavy_check_mark: |
+| 淘宝 | `^http://h5.m.taobao.com/awp/core/detail.htm\\?id=(\\d+)` | `https://item.taobao.com/item.htm?id=$1` | :heavy_check_mark: |
+| 起点 | `^http://m.qidian.com/book/showbook.aspx\\?bookid=(\\d+)` | `http://book.qidian.com/info/$1` | :heavy_check_mark: |
+| 音悦台 | `^http://m.yinyuetai.com/video/(.*)` | `http://v.yinyuetai.com/video/$1` | :heavy_check_mark: |
+
 
 ## Contributed Rules
 
